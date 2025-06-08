@@ -31,22 +31,23 @@ a {
 }
 
 .margin {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
+    background-color: whitefff; /* White */
     color: #555555;
 }
 
 .bg-2 {
     background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+    color: whitefff;
 }
 
 .card {
     color: black;
     text-align: left;
+    margin-bottom: 40px;
 }
 
 .card-title {
@@ -55,12 +56,12 @@ a {
 
 .bg-3 {
     background-color: #000000; /* Black */
-    color: #ffffff;
+    color: whitefff;
 }
 
 .bg-4 {
     background-color: #343a40; /* Dark Gray */
-    color: #fff;
+    color: white;
 }
 
 .container-fluid {
@@ -69,8 +70,8 @@ a {
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 15px; */
+    /* padding-bottom: 15px; */
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -80,4 +81,8 @@ a {
 
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
+}
+
+.nav-link {
+    font-size: 16px;
 }
